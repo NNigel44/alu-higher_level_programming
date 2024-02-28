@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-
-# Define the variables
-str1 = "object-oriented"
-str2 = " programming with "
-str3 = "Python"
-
-# Print the concatenated string
-print(str1 + str2 + str3)
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with clear syntax"
+str = str[39:67] + str[107:112] + str[:6]
+print(str) 
